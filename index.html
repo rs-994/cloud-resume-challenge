@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachana Sooraj - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rachana Sooraj</h1>
+            <div class="visitor-counter">
+                <p>👁️ Page Views: <span id="visitor-count">Loading...</span></p>
+            </div>
+            <div class="contact-info">
+                NYC, NY | 484-620-6910 | rach.rmenon@gmail.com
+                <br>
+                <a href="#">LinkedIn</a> | <a href="#">Portfolio</a> | <a href="#">Github</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <span class="company">Barclays</span>
+                    <span class="date">2022 - Current</span>
+                </div>
+                <div class="position">Data Engineer, PRIME | New Jersey</div>
+                <ul>
+                    <li>Built real-time event-driven data pipeline with SQS and Lambda, filtered data using EventBridge and uploaded data to S3.</li>
+                    <li>Developed real-time streaming pipeline to capture data changes in DynamoDB using Kinesis Data Streams, Kinesis Firehose, Glue, Lambda, S3 and EventBridge. Used Athena for data analysis.</li>
+                    <li>Designed a data ingestion and transformation pipeline on transactional data. Crawled data using Glue and developed ETL Glue job to enrich/validate and upsert to Redshift.</li>
+                    <li>Extracted sales data from S3, transformed with Glue Spark, stored in MySQL RDS; secured via IAM, VPC endpoints.</li>
+                    <li>Modified ETL pipelines in Informatica, and tested workflows to load data into two new columns.</li>
+                    <li>Led migration of 300+ equity finance, Bloomberg, fixed income datasets from on-prem SQL systems to Hadoop cluster for the PRIME Data science platform. Performed data validation checks in HIVE and Impala.</li>
+                    <li>Performed development, testing and deployment of shell linkage id column addition to contracts table which helped connect borrows with loans strategically to look at exposure.</li>
+                    <li>Enabled BCI Regulatory Operations Team identify daily changes to security prioritization by importing two new columns to stock loan table, complying with SEC customer protection rule.</li>
+                    <li>Created detailed runbooks that reduced production risks by 25% and performed UAT validations.</li>
+                    <li>Guided 2 teams in migrating 10 applications to an automated CI/CD pipeline, enhancing deployment speed by 40%. Created POC and presented to team leads.</li>
+                    <li>Developed Python script to report changes between tables' metadata and helped forecast Identity column max usage.</li>
+                    <li>Reduced operation time by 50% by automating REST API stress testing in Locust using Python.</li>
+                    <li>Performed pivot, VLOOKUPS, nested conditions in Excel for data validation. Aligned with release plans and made on-time deliveries.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="company">Forward Thinking Technology Solutions</span>
+                    <span class="date">June 2022 - July 2022</span>
+                </div>
+                <div class="position">Product/BI Intern</div>
+                <ul>
+                    <li>Created 5 reports for internal teams and clients by conducting stakeholder meetings to understand reporting requirements and KPIs.</li>
+                    <li>Analyzed insights from 500+ JIRA tickets by creating Power BI dashboards and established resolution time metrics, completing a migration process in under 3 months.</li>
+                    <li>Developed interactive dashboards in Power BI and tracked adoption rate and conversion rates to drive sales.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <span class="company">Continental Automotive AG</span>
+                    <span class="date">2017 - 2021</span>
+                </div>
+                <div class="position">Data Analyst | Bengaluru</div>
+                <ul>
+                    <li>Implemented 10 process improvements that increased code coverage of customer reports by 300%.</li>
+                    <li>Developed Excel reports, Tableau dashboards and SQL queries to improve timing analysis by 400ms for 20+ OEMs.</li>
+                    <li>Created and tested automation scripts using Python, effectively saving monthly 25 hours of manual effort.</li>
+                    <li>Optimized SQL queries that improved efficiency of data extraction tool.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>EDUCATION</h2>
+            
+            <div class="education-item">
+                <div class="school">Pennsylvania State University</div>
+                <div class="degree">Master of Science in Data Analytics</div>
+            </div>
+
+            <div class="education-item">
+                <div class="school">Amrita School of Engineering</div>
+                <div class="degree">Bachelor of Technology in Electronics and Communication Engineering</div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>ADDITIONAL INFORMATION</h2>
+            <p><span class="skill-label">Skills:</span> SQL, Informatica, AWS, Excel, Tableau, Power BI, Python, Data Engineering</p>
+            <p><span class="skill-label">Certificates:</span> AWS Solution Architect Associate, AWS Cloud Practitioner, Microsoft Power BI</p>
+        </section>
+    </div>
+    <script src="visitor-counter.js"></script>
+
+</body>
+</html>
