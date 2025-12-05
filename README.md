@@ -9,6 +9,7 @@ IaC Tools: Terraform
 CI/CD: GitHub Actions
 Version Control: Git & GitHub
 
+
 ## Architecture Description
 The application follows a serverless architecture pattern, leveraging multiple AWS services to create a scalable, cost-effective, and highly available solution:
 ### Frontend:
