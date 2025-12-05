@@ -22,9 +22,17 @@ The application follows a serverless architecture pattern, leveraging multiple A
 
 ### Frontend:
 
-Static website files (HTML, CSS, JavaScript) are stored in an S3 bucket configured for static website hosting     
+Static website files (HTML, CSS, JavaScript) are stored in an S3 bucket configured for static website hosting    
+
+<img width="975" height="451" alt="image" src="https://github.com/user-attachments/assets/276be7eb-ed9d-4c79-af83-56fc6b1757eb" />
 
 CloudFront CDN distributes content globally with low latency and provides HTTPS support    
+
+<img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/82fe3f86-93dc-4a36-b46b-90a510f32a2d" />
+
+<img width="975" height="224" alt="image" src="https://github.com/user-attachments/assets/8cc8b429-4a92-4107-9d12-6e792372f84e" />
+Allow HTTPS only
+<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/0b02c061-4c3c-4ef2-bd1a-e5d9dd4bad2e" />
 
 Route 53 manages custom domain DNS routing to CloudFront    
 
@@ -32,13 +40,8 @@ Route 53 manages custom domain DNS routing to CloudFront
 
 AWS Certificate Manager (ACM) provides SSL/TLS certificates for secure HTTPS connections    
 
-<img width="975" height="451" alt="image" src="https://github.com/user-attachments/assets/276be7eb-ed9d-4c79-af83-56fc6b1757eb" />
 
-<img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/82fe3f86-93dc-4a36-b46b-90a510f32a2d" />
 
-<img width="975" height="224" alt="image" src="https://github.com/user-attachments/assets/8cc8b429-4a92-4107-9d12-6e792372f84e" />
-Allow HTTPS only
-<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/0b02c061-4c3c-4ef2-bd1a-e5d9dd4bad2e" />
 
 
 
