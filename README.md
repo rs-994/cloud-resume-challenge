@@ -28,6 +28,8 @@ CloudFront CDN distributes content globally with low latency and provides HTTPS 
 
 Route 53 manages custom domain DNS routing to CloudFront    
 
+<img width="975" height="527" alt="image" src="https://github.com/user-attachments/assets/2a61a578-120f-4d48-85f7-f6561e68b765" />
+
 AWS Certificate Manager (ACM) provides SSL/TLS certificates for secure HTTPS connections    
 
 <img width="975" height="451" alt="image" src="https://github.com/user-attachments/assets/276be7eb-ed9d-4c79-af83-56fc6b1757eb" />
@@ -39,11 +41,16 @@ Allow HTTPS only
 <img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/0b02c061-4c3c-4ef2-bd1a-e5d9dd4bad2e" />
 
 
+
+
 ### Backend:
 
-API Gateway exposes a RESTful API endpoint for the visitor counter
-Lambda function (Python/Node.js) processes requests and handles business logic
-DynamoDB stores the visitor count with atomic increment operations for consistency
+API Gateway exposes a RESTful API endpoint for the visitor counter      
+
+Lambda function (Python) processes requests and handles business logic      
+
+DynamoDB stores the visitor count with atomic increment operations for consistency      
+
 
 ### CI/CD Pipeline:
 
